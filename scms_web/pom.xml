@@ -12,21 +12,22 @@
     <artifactId>scms_web</artifactId>
 
     <dependencies>
-        <!--添加service modul依赖-->
-        <dependency>
-            <groupId>com.scms.admin</groupId>
-            <artifactId>service</artifactId>
-        </dependency>
-        <!--引入springboot web-->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
         <dependency>
             <groupId>com.scms.admin</groupId>
             <artifactId>scms_service</artifactId>
             <version>0.0.1-SNAPSHOT</version>
             <scope>compile</scope>
+        </dependency>
+
+        <!--引入springboot web-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+        <!--引入Thymeleaf 模板引擎-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-thymeleaf</artifactId>
         </dependency>
     </dependencies>
 </project>
