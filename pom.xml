@@ -8,6 +8,8 @@
         <module>scms_service</module>
         <module>scms_web</module>
         <module>scms_model</module>
+        <module>scms_mybatis_plus</module>
+        <module>scms_learn_shiro</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>

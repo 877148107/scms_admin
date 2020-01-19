@@ -1,0 +1,1 @@
+CREATE DATABASE `scms_admin`CHARACTER SET utf8;

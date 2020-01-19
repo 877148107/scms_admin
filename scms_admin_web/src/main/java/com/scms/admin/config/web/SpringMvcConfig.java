@@ -1,4 +1,4 @@
-package com.scms.admin.config;
+package com.scms.admin.config.web;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.ViewControllerRegistry;
@@ -16,7 +16,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
  * @Version: V1.0
  */
 @Configuration
-public class MyMvcConfig implements WebMvcConfigurer {
+public class SpringMvcConfig implements WebMvcConfigurer {
 
     /**
      * 添加URL映射跳转页面
