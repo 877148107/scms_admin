@@ -9,6 +9,7 @@
         <module>scms_admin_web</module>
         <module>scms_admin_model</module>
         <module>scms_learn_shiro</module>
+        <module>scms_learn_thymeleaf</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
