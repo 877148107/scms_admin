@@ -10,6 +10,7 @@
         <module>scms_admin_model</module>
         <module>scms_learn_shiro</module>
         <module>scms_learn_thymeleaf</module>
+        <module>scms_learn_mybatis</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
