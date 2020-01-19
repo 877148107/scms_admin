@@ -4,11 +4,10 @@
     <modelVersion>4.0.0</modelVersion>
     <packaging>pom</packaging>
     <modules>
-        <module>scms_common</module>
-        <module>scms_service</module>
-        <module>scms_web</module>
-        <module>scms_model</module>
-        <module>scms_mybatis_plus</module>
+        <module>scms_admin_common</module>
+        <module>scms_admin_service</module>
+        <module>scms_admin_web</module>
+        <module>scms_admin_model</module>
         <module>scms_learn_shiro</module>
     </modules>
     <parent>
