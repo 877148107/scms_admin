@@ -1,8 +1,11 @@
 package com.scms.learn.thymeleaf.controller;
 
+import com.scms.learn.thymeleaf.exception.UserNotExistException;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.ResponseBody;
 
 import javax.servlet.http.HttpSession;
 import java.util.Map;
@@ -32,5 +35,14 @@ public class LoginController {
             map.put("msg","用户名密码错误");
             return "login";
         }
+    }
+
+    @ResponseBody
+    @RequestMapping("/user")
+    public String hello(@RequestParam("name")String name){
+        if(!name.equals("aaa")){
+            throw new UserNotExistException();
+        }
+        return "hello world";
     }
 }
